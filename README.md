@@ -11,6 +11,7 @@ Make sure to keep the following MySQL Maven dependency to avoid MySQL driver rel
 
 spark-submit on yarn
 
+'''
 /opt/mapr/spark/spark-*/./bin/spark-submit \
 --class com.sparkbasics.CreateSparkApp \
 --master yarn \
@@ -18,3 +19,4 @@ spark-submit on yarn
 --executor-memory 1G \
 --num-executors 2 \
 /tmp/samplespark-1.0-SNAPSHOT-jar-with-dependencies.jar
+'''
