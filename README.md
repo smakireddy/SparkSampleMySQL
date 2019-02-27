@@ -2,14 +2,16 @@
 
 Make sure to keep the following MySQL Maven dependency to avoid MySQL driver related issues.
 
+
+```
 <dependency>
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
     <version>5.1.6</version>
 </dependency>
+```
 
-
-spark-submit on yarn
+Submit the job using spark-submit on yarn as follows......
 
 ```
 /opt/mapr/spark/spark-*/./bin/spark-submit \
