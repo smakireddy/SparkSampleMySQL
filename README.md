@@ -20,5 +20,5 @@ Submit the job using spark-submit on yarn as follows......
 --deploy-mode cluster \
 --executor-memory 1G \
 --num-executors 2 \
-/tmp/samplespark-1.0-SNAPSHOT-jar-with-dependencies.jar
+/tmp/SparkSampleMySQL-1.0-SNAPSHOT.jar
 ```
